@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Genetator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="pass_container">
+        <h1>Generate a <br><span>Random Password</span></h1>
+        
+        <div class="Display">
+            <input type="text" id="password" disabled>
+            <img src="sources\image_copy.png" id="copyIcon">
+        </div>
+
+
+        <div class="rangeBox">
+            <input type="range" class="range_bar" min="1" max="24" value="8" id="inputSlider">
+            <div class="title_number_box">
+                <p>Password Range</p>
+                <span id="sliderValue"></span>
+            </div>
+            
+            <div class="title_number_box">
+                <label for="uppercase">Include Uppercase Letters (A-Z)</label> 
+            <input type="checkbox" name="uppercase" id="uppercase" checked></div>
+
+            <div class="title_number_box">
+                <label for="lowercase">Include Lowercase Letters (a-z)</label> 
+            <input type="checkbox" name="lowecase" id="lowercase" checked></div>
+
+            <div class="title_number_box">
+                <label for="number">Include Number Letters (0-9)</label> 
+            <input type="checkbox" name="lowecase" id="number" checked></div>
+
+            <div class="title_number_box">
+                <label for="symbol">Include Symbols Letters (!@#$%^...)</label> 
+            <input type="checkbox" name="lowecase" id="symbol" checked></div>   
+        </div>
+
+
+        <div class="genrate_Box">
+            <button type="button" class="genBtn" id="genBtn"><img src="sources\flash.png" >Generate password</button>
+        </div>
+        
+    </div>
+
+    <script src="Script.js"></script>
+</body>

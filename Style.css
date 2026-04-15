@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body { 
+    background-color: #002339;
+    color: #fff;
+    background-size: cover;
+    height: 100vh;
+}
+
+.pass_container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    
+}
+ 
+#password {
+    width: 300px;
+    height: 50px;
+    border: 0px;
+    border-radius: 8px;
+    padding: 15px;
+    font-style: normal;
+    width: 100%;
+}
+ 
+.Display {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width:100%;
+    border-radius: 8px;
+    padding: 26px 20px;
+   
+}
+
+.Display img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.Display input {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    
+}
+
+.pass_container h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.pass_container h1 span {
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+
+.genBtn {
+    border: 0;
+    outline: 0; 
+    background: #019f55;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px;
+    justify-content: center;
+    padding: 16px 26px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.genBtn img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.genBtn:hover {
+    background-color: #0b59d5;
+}
+
+.rangeBox {
+    border: 0;
+    outline: 0; 
+    background: #b2d926;
+    color: #fff;
+    padding: 10px;
+    width: 700px;
+    height: 300px;
+    font-size: 24px;;
+    padding: 16px 26px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.range_bar {
+    width: 600px;
+    justify-content: center;
+}
+.title_number_box {
+    display: flex;
+    margin-block: 8px;
+
+}
+.title_number_box p {
+    flex-basis: 90%;
+}
+
+.title_number_box label {
+    flex-basis: 90%;
+}
+.title_number_box input {
+    width: 25px;
+    height: 25px;
+}
